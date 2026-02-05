@@ -32,3 +32,11 @@ db.users.insertOne({
   password: "1234",
   role: "student", // student | instructor | admin
 });
+
+db.users.insertOne({
+  _id: "u5",
+  name: "Suresh Kumar",
+  email: "suresh@gmail.com",  
+  password: "1234",
+  role: "student", // student | instructor | admin
+});
